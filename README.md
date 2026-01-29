@@ -1,6 +1,6 @@
 Flappy Bird Clone in Pygame
 
-[preview.png] 
+![Preview](preview.png)
 
 Description
 
