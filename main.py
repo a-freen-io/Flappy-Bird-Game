@@ -67,7 +67,7 @@ class Ground(pygame.sprite.Sprite):
     def __init__(self, y):
         super().__init__()
         self.image = ground_image
-        self.rect = self.image.get_rect()
+        self.rect = self.image.get_rect() 
         self.rect.topleft = (0, y)
 
     def update(self):
@@ -150,7 +150,7 @@ while running:
     if not running:
         screen.blit(game_over_image, game_over_rect)
 
-    pygame.display.flip()
+    pygame.display.flip()   
 
     clock.tick(FPS)
 
